@@ -4,7 +4,7 @@
 
 
 
-###ABOUT ME
+### ABOUT ME
 This is my second and **final** year in the program and I have been supplementing the traditional
 library courses with exciting data science courses like this [one](http://stat545.com/index.html).
 
@@ -23,7 +23,7 @@ library courses with exciting data science courses like this [one](http://stat54
 |----------------|------------|
 | Take STATS     | :thumbsup: |
 | Finish degree  | :hammer:   |
-| Consulting GIG | :hammer:   |
+| Consulting Gig | :hammer:   |
 
 
 
