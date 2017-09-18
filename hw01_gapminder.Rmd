@@ -1,0 +1,46 @@
+---
+title: "hw01_gapminder.Rmd"
+author: "Shirlett"
+date: "September 18, 2017"
+output: github_document
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Description Of Gapminder Data
+
+```{r}
+library(tidyverse)
+library(gapminder)
+#This shows the first few records in the file
+head(gapminder)
+#This gives a cursory description 
+summary(gapminder)
+#This gives more detailed statistical descriptions for each continent 
+library(psych)
+describeBy(gapminder, group="continent")
+
+```
+
+##Graphical Display by Continent
+```{r}
+
+plot(lifeExp ~ continent, gapminder, main="Life Expectancy by Continent")
+plot(log(gdpPercap) ~ continent, gapminder, main="GDP per Capita by Continent")
+
+```
+
+
+
+##Exploration of Correlation between Life Expectancy and GDP per Capita
+```{r}
+cor(log(gapminder$gdpPercap), gapminder$lifeExp)
+model = lm(log(gapminder$gdpPercap)~gapminder$lifeExp)
+plot(log(gapminder$gdpPercap), gapminder$lifeExp, main="Linear Model between GDP per Capita and Life Expectancy", xlab="GDP per Capita", ylab="Life Expectancy");abline(model)
+coef(model)
+```
