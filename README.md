@@ -29,8 +29,7 @@ library courses with exciting data science courses like this [one](http://stat54
 
 ### *MY SENSE OF HUMOUR*
 
-
-![](https://giphy.com/gifs/big-fish-m828HkzZg2jUk)
+![](https://github.com/Shirlett/STAT545-hw01-Hall-Shirlett/blob/master/giphy-downsized.gif)
 
 
 
