@@ -47,4 +47,17 @@ On the surface, having created at least three repositories since the start of th
 
 I used R markdown for a class last semester and still need to use it for some personal data. This part of the homework did not present any problems. Overall, this was a great introduction to Github with many helpful resources built into the STAT545 website. 
 
+### *REFLECTIONS*
+
+On the surface, having created at least three repositories since the start of the class, I thought this assignment would be less than challenging. I could simply create the project in Rstudio, pull, commit and push the initial version of the readme file to the remote github location. **However**, I did encounter several problems that required some troubleshooting. 
+
+1. When I tried to remodify the readme file and then commit, I received the following error:
+"fatal: You are in the middle of a merge -- cannot amend." Some assistance from stack overflow highlighted that I was encountering a merge conflict because I was checking the box to "Amend previous commit comment". Unchecking the box resolved this problem.
+![](https://stackoverflow.com/questions/22135465/cant-commit-after-starting-a-merge-in-sourcetree)
+2. I liked the status chart that was provided in the example so I attempted to find a list of icons recognized by github to represent "In progress". Unfortunately the most representative icon I could find was a hammer (for under construction) which was submitted by another github member - avalanche123.
+
+3. The third issue I encountered was related to embedding the gif file. Embedding a link to GIPHY did not seem to show up on Github. I had to download the file to my local computer, push to Github, then reference the file in the remote folder. This is likely the better solution in the event the source site makes changes to their path.
+
+Overall, this was a great introduction to Github with many helpful resources built into the STAT545 website. 
+
 
