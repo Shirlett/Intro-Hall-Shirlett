@@ -1,7 +1,7 @@
 # STAT545-hw01-Hall-Shirlett - September 19, 2017
 
 ## This is a repository for Shirlett Hall - Current Master's student in the MLIS Program
-This repository includes a file showing exploration of gapminder data which displays life expectancy in many countries. Please see this ![link] (https://github.com/Shirlett/STAT545-hw01-Hall-Shirlett/blob/master/hw01_gapminder.md)
+This repository includes a file showing exploration of gapminder data which displays life expectancy across continents. Please see this ![link] (https://github.com/Shirlett/STAT545-hw01-Hall-Shirlett/blob/master/hw01_gapminder.md)
 
 
 ### ABOUT ME
