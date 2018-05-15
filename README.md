@@ -5,7 +5,7 @@ This repository includes a file showing exploration of gapminder data which disp
 
 
 ### ABOUT ME
-i have been experimenting with data analysis with **exciting** data science courses like this [one](http://stat545.com/index.html).
+I have been experimenting with data analysis with **exciting** data science courses like this [one](http://stat545.com/index.html).
 
 
 ### WHAT I HAVE DONE IN THE PAST
